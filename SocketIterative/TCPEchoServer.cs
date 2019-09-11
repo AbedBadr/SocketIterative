@@ -33,9 +33,11 @@ namespace SocketIterative
                     sw.WriteLine(answer);
                     message = sr.ReadLine();
                 }
+                /*
                 ns.Close();
                 connectionSocket.Close();
                 serverSocket.Stop();
+                */
             }
         }
     }
