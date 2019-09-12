@@ -8,7 +8,7 @@ namespace SocketIterative
 {
     class TCPEchoServer1
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             TcpListener serverSocket = new TcpListener(6789);
             serverSocket.Start();

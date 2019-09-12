@@ -6,7 +6,7 @@ namespace SocketIterative
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             TcpListener serverSocket = new TcpListener(6789);
             serverSocket.Start();
