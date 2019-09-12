@@ -18,7 +18,6 @@ namespace SocketIterative
         public void DoIt()
         {
             Stream ns = _connectionSocket.GetStream();
-            //Stream ns = new NetworkStream(connectionSocket);
             StreamReader sr = new StreamReader(ns);
             StreamWriter sw = new StreamWriter(ns);
             sw.AutoFlush = true; // enable automatic flushing
